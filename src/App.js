@@ -7,7 +7,7 @@ class App extends Component {
       <div className="App">
       <header className="App-header">
         <button onClick={this.handleClick} className="Button">
-          New Page
+          + New Page
         </button>
       </header>
     </div>
