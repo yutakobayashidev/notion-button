@@ -44,7 +44,7 @@ class App extends Component {
 
     const method = "POST";
 
-    fetch("https://notion.yutakobayashi.workers.dev/https://api.notion.com/v1/pages", {method, headers,body}).then((res)=> res.json()).then(console.log).catch(console.error);
+    fetch("https://reverse-proxy.yutakobayashi.workers.dev/https://api.notion.com/v1/pages", {method, headers,body}).then((res)=> res.json()).then(console.log).catch(console.error);
 
   }
   // ***** ここまで追加 *****
